@@ -1,0 +1,67 @@
+body{
+background-image: url(../images/axie.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h2{
+    color: white;
+    font-family: Baskerville Old Face;
+}
+a{
+    font-family:Garamond;
+    font-size:larger;
+}
+.info{
+    margin-top:25%;
+    
+    transform: translateY(-15%);
+}
+.info h1{
+    margin-top: 5.5rem;
+    font-size: 3.5em;
+    font-weight: 1000;
+    color: #ffbc70;
+    letter-spacing: 2px;
+}
+.info p{
+    font-family:Garamond;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.info a{
+    font-family:Garamond;
+    margin-left:50%;
+    transform: translateX(-50%);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    background: rgb(230, 122, 21);
+    padding:6px 12px; 
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.info a:hover{
+    background: #0ad8c7;
+}
+.card{
+height: 10rem;
+margin-top: 5rem;
+background-color: rgba(203, 213, 221, 0.5);
+}
+.navbar li a:hover{
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+    font-size: medium;
+
+}
+.dropdown-toggle{
+    color: #f5f5f7;
+}
+.dropdown-toggle:hover{
+    color: #f5f5f7;
+}
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+} 
